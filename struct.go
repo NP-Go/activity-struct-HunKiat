@@ -15,17 +15,6 @@ type jediKnight struct {
 
 var jedis = []jediKnight{}
 
-// coruscant is of world of all Jedis
-type coruscant struct {
-	// entry interface{}
-	entry *jediKnight
-	next  *coruscant
-}
-
-type JediWorld struct {
-	head *coruscant
-}
-
 func main() {
 	//Insert code here
 }
